@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "SmartTab",
+    "version": "1.0",
+    "description": "Con SmartTab, guarda tus pestañas abiertas en un instante y nunca más pierdas tu sesión de trabajo o navegación. Mantén tus pestañas organizadas y accede a ellas rápidamente en cualquier momento con solo un clic",
+    "icons":{
+        "128": "SmartTab.png"
+    },
+    "action": {
+        "default_popup": "smart.html"
+    }
+}
