@@ -10,6 +10,19 @@
 <body>
     <h1>Smart Tab</h1>
     <p>Accede a tus entornos de trabajo.</p>
-    <a href="">Espacios de trabajo</a>
+    <button id="button">Nuevo Link</button>
+    <!-- Formulario de Nuevo Link -->
+    <div id="dialogo" class="oculto">
+        <h2>Nuevo enlace</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="url">URL:</label>
+            <input type="text" id="url" name="url"><br>
+            <button type="submit">Guardar</button>
+        </form>
+    </div>
+    
+    <script src="/src/main.js"></script>
 </body>
 </html>
